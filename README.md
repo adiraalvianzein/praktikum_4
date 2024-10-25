@@ -43,14 +43,16 @@
 ```
 # Hasil Dari Code Diatas
 
+![Screenshot 2024-10-25 074606](https://github.com/user-attachments/assets/93a20996-5b20-4c32-84c8-56dc76edc9d9)
+
 # Mengatur Clearfix Element
 
 ```html
 <section>
-<div class="div1">Div 1</div>
-<div class="div2">Div 2</div>
-<div class="div3">Div 3</div>
-<div class="div4">Div 4</div>
+    <div class="div1">Div 1</div>
+    <div class="div2">Div 2</div>
+    <div class="div3">Div 3</div>
+    <div class="div4">Div 4</div>
 </section>
 ```
 
@@ -58,8 +60,11 @@
 
 ```css
 .div4 {
-background-color: blue;
-clear: left;
-float: none;
-```
+    background-color: blue;
+    clear: left;
+    float: none;
 }
+```
+# Hasil Dari Code Diatas
+
+
