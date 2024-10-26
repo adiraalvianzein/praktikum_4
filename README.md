@@ -479,6 +479,9 @@ pretium ac.</p>
 </body>
 </html>
 ```
+## Hasil Dari Code Diatas
+![Screenshot 2024-10-26 142421](https://github.com/user-attachments/assets/5a5e577a-74f8-416a-a074-d3746f0b3c75)
+
 
 ## Menu Kontak
 ```html
@@ -532,6 +535,8 @@ pretium ac.</p>
 </body>
 </html>
 ```
+## Hasil Dari Code Diatas
+![Screenshot 2024-10-26 140912](https://github.com/user-attachments/assets/ac17e19d-96a2-496f-9507-26664e851087)
 
 
 
