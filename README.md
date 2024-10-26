@@ -442,6 +442,96 @@ pretium ac.</p>
 ## Hasil Dari Code Diatas
 ![Screenshot 2024-10-25 075937](https://github.com/user-attachments/assets/45196043-bd7c-41d1-a3da-5132013e16d9)
 
+# Tugas Membuat Layout About & Kontak
+
+## Menu About
+
+```html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="main">
+            <h2>Deskripsi</h2>
+            <p>Adira Alvian Zein</p>
+            
+            <h2>Portfolio</h2>
+            <p>TI.23.A3 Web Designer</p>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+## Menu Kontak
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+    <h1>Kontak Kami</h1>
+
+    <p>Jika Anda memiliki pertanyaan atau ingin menghubungi kami, silakan isi formulir di bawah ini:</p>
+
+    <form action="/submit_form" method="post">
+        
+        <label for="name">Nama:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Nomor Telepon:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+
+    <p>Atau hubungi kami melalui:</p>
+    <ul>
+        <li>Email: Universitas Pelita Bangsa</li>
+        <li>Telepon: 021 2851 8181,82,83,84</li>
+        <li>Alamat: Jl.Inspeksi Kalimalang Tegal Danas Arah Deltamas, Cibatu, Cikarang</li>
+    </ul>
+
+</body>
+</html>
+```
 
 
 
